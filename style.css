@@ -6,6 +6,10 @@ body {
   border: 0;
   font-family: 'Roboto', sans-serif;
 }
+.container {
+  margin: 0 auto;
+  padding: 30px;
+} 
 
 .header {
   display: grid;
@@ -15,7 +19,8 @@ body {
 }
 
 .title {
-  padding: 50px 25px;
+   padding: 50px 25px;  
+
   text-align: center;
 }
 
@@ -31,10 +36,14 @@ h4 {
 
 img {
   display: block;
+  width: 100%;
+  
 }
-
+ 
 @media (min-width: 960px) {
   .header {
-    grid-template-columns: repeat(2, 1fr);
+     grid-template-columns: repeat(2, 1fr);
+    
+
   }
 }
